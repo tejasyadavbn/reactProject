@@ -1,0 +1,104 @@
+.exploreapis_intro{
+    background: #0364aa;
+    height: 200px;
+    margin-top: 80px;
+  }
+
+  .exploreapis_intro h3{
+    color: white;
+    margin-left: 150px;
+    padding-top: 20px;
+    font-size: 3rem;
+  }
+
+  .exploreapis_intro p{
+    color: white;
+    margin-left: 150px;
+    font-size: 1rem;
+  }
+
+  .feature_img{
+    width: 75px;
+    height: 75px;    
+  }
+
+  .exploreapis_features{
+    background: white;
+    height: 270px;
+    color: #00406e;
+  }
+
+  .exploreapis_features h3{
+    color: #00406e;
+    margin-left: 150px;
+    padding-top: 40px;
+    font-size: 2.5rem;
+  }
+
+  .grid-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .grid-item{
+    text-align:center;
+  }
+
+  .para{
+    padding-left: 90px;
+  }
+
+  .prefooter_container{
+    background-color: #003358;
+    height: 200px;
+  }
+  .prefooter{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  .prefooter_row{
+    display: grid;
+    grid-template-columns: auto  auto;
+  }
+
+  .prefooter_col1{
+      padding-bottom: 15px;
+      color: #ffffff;
+      font-size: 2rem;
+  }
+
+  .italicspan{
+    font-style: italic;
+  }
+
+  .prefooter_col1 p{
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  .prefooter_col2{
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+  .button{
+    width: 100%;
+    background: #067bb9;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transform: translateY(50%);
+    cursor: pointer;
+  }
+

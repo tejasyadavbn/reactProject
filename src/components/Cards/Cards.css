@@ -1,0 +1,116 @@
+.cards {
+    padding: 150px;
+    background: #f7f9fb;
+    padding-top: 80px;
+  }
+  
+  h1 {
+    color: #00406e;
+    text-align: left;
+    font-size: 3rem;
+  }
+
+  p {
+    color: #00406e;
+    text-align: left;
+  }
+  
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards__items {
+    margin-bottom: 24px;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  .cardblock{
+    height: 350px;
+    color: #00406e;
+    border-radius: 5px;
+    border: solid 1px #d4dbe1;
+    background-color: #ffffff;
+    padding: 7% 7% 7% 7%;
+    margin-top: 20px;
+  }
+
+  h3 {
+    color: #00406e;
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .prodDesc{
+    margin: 4% 0 3% 0;
+    height: 50%;
+    overflow-y: scroll;
+    font-size: 1rem;
+  }
+
+  h4 {
+    color: #007cba;
+    font-size: 1rem;
+  }
+
+  .row2{
+    margin: 4% 0 3% 0;
+    height: 50%;
+    overflow-y: scroll;
+  }
+
+  .row3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: auto;
+    float: right;
+  }
+
+  .linksgrid{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .link1{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .link2{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  
